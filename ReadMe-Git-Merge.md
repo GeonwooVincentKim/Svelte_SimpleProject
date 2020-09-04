@@ -4,7 +4,9 @@
 - 2. To make unified-branch, makes sure you have to know about how to merge several branches.
 
 
+
 ## Process of create and merge several branches into unified branch.
+
 
 ### Current Commit History
 
@@ -19,6 +21,7 @@ or, if you want to make this commands shortly,
 git checkout -b issue1
 ```
 
+
 ### Create a new branch-pointer
 
 ```
@@ -32,6 +35,7 @@ or you can only type this commands below.
 ```
 git commit -a -m "Your New Comments."
 ```
+
 
 ### A branch name 'issue1' currently in progress.
 
@@ -49,6 +53,7 @@ vim index.html
 git commit -a -m "Your New Comments."
 ```
 
+
 ### The 'hotfix' branch that have branched off from 'master' branch.
 
 ```
@@ -57,6 +62,7 @@ git merge hotfix
 ```
 
 Before you deploy project, make sure you have to check several-branches merged well without [No-Errors].
+
 
 ### The 'master' branch that indicate some like 'hotfix' after Merge.
 
@@ -81,10 +87,14 @@ git commit -m "Added some new comments".
 ```
 
 
+
 ## Further information of merging several git-branches.
 
 You can search futher information about how to merge several branches that above 2 or 3-branches.
 
 ```
 https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%99%80-Merge-%EC%9D%98-%EA%B8%B0%EC%B4%88
+```
+```
+https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error
 ```
