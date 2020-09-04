@@ -19,15 +19,9 @@
 	<!-- Output full-name here. -->
 	<p style="color: {beltColour}">{fullName} - has {beltColour} belt</p>
 
-	<!-- Two way bounding, 'handleInput' and 'beltColour'. -->
-	<!-- <input type="text" on:input={handleInput} value={beltColour}> -->
-	
+	<!-- Two way bounding, 'handleInput' and 'beltColour'. -->	
 	<input type="text" bind:value={FirstName}>
 	<input type="text" bind:value={LastName}>
-	<!-- 
-		One way bounding, but it controlls all of things 
-		by using 'beltColour'. 
-	-->
 	<input type="text" bind:value={beltColour}>
 
 	<!-- svelte-ignore a11y-missing-attribute -->
