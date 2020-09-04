@@ -66,6 +66,9 @@ git branch -d hotfix
 
 If the processing of 'merge' successfully finished, makes sure you have to delete branch that is not a [Master-Branch].
 
+And what we need to after delete this branch, we should continue a process in [Master-branch].
+
+``````
 
 
 ## Further information of merging several git-branches.
