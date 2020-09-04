@@ -68,7 +68,17 @@ If the processing of 'merge' successfully finished, makes sure you have to delet
 
 And what we need to after delete this branch, we should continue a process in [Master-branch].
 
-``````
+```
+git checkout master
+vim index.html
+git commit -a -m "Added new comments".
+```
+
+or you can omit those some step.
+```
+git checkout master
+git commit -m "Added some new comments".
+```
 
 
 ## Further information of merging several git-branches.
