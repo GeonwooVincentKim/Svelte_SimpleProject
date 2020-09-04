@@ -4,7 +4,21 @@
 - 2. To make unified-branch, makes sure you have to know about how to merge several branches.
 
 
-## 
+## Process of create and merge several branches into unified branch.
+
+### Current Commit History
+```
+git branch issue1
+git checkout issue1
+```
+
+or, if you want to make this commands shortly,
+
+```
+git checkout -b issue1
+```
+
+
 
 
 
