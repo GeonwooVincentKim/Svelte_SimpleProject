@@ -98,3 +98,6 @@ https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9
 ```
 https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error
 ```
+```
+https://developer88.tistory.com/153
+```
