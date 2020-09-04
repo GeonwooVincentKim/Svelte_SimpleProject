@@ -41,6 +41,8 @@ You can starting from here if you want to merge several branches as a one-unifie
 git checkout master
 ```
 
+And then generate new branch, 'hotfix'.
+
 ```
 git checkout -b hotfix
 vim index.html
@@ -53,6 +55,18 @@ git commit -a -m "Your New Comments."
 git checkout master
 git merge hotfix
 ```
+
+Before you deploy project, make sure you have to check several-branches merged well without [No-Errors].
+
+### The 'master' branch that indicate some like 'hotfix' after Merge.
+
+```
+git branch -d hotfix
+```
+
+If the processing of 'merge' successfully finished, makes sure you have to delete branch that is not a [Master-Branch].
+
+
 
 ## Further information of merging several git-branches.
 ```Further information
