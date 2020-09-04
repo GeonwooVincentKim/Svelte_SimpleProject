@@ -7,6 +7,7 @@
 ## Process of create and merge several branches into unified branch.
 
 ### Current Commit History
+
 ```
 git branch issue1
 git checkout issue1
@@ -18,9 +19,19 @@ or, if you want to make this commands shortly,
 git checkout -b issue1
 ```
 
+### Create a new branch-pointer
 
+```
+vim index.html  
+git commit -a -m "Your New Comments."
+```
+You don't have to do this, but if you have something that you modified or deleted some codes, it is good way to convert files by using 'vim' commands.
 
+or you can only type this commands below.
 
+```
+git commit -a -m "Your New Comments."
+```
 
 ## Further information of merging several git-branches.
 ```Further information
