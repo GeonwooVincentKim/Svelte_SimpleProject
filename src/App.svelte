@@ -8,10 +8,13 @@
 	$: fullName = `${firstName} ${lastName}`;
 	$: {console.log(beltColour); console.log(fullName);}
 
-	let imgSrc = "images.png";
+	let imgSrc = "images2.png";
 </script>
 
 <main>
+	<main>
+		<p>Testing..</p>
+	</main>
 	<h1>Hello {fullName}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
