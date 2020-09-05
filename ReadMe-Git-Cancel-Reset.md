@@ -37,3 +37,12 @@ Subsitution
 git reset --hard HEAD@{1}
 ```
 
+
+
+## Further information of Canceling reset branch.
+
+You can search further information about how to cancel you reset several branchs.
+
+```
+https://88240.tistory.com/284
+```
