@@ -23,4 +23,17 @@ your_git_repo_id HEAD@{2}: your_acts (Such as Modify, add some comments or codes
 ```
 
 
-### 
+### Check the reflog of the previous work and see which HEAD to move to.
+
+Example
+
+```
+git reset --hard HEAD@{the number you want to move..}
+```
+
+Subsitution
+
+```
+git reset --hard HEAD@{1}
+```
+
