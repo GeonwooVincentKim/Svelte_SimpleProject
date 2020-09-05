@@ -23,7 +23,7 @@ your_git_repo_id HEAD@{2}: your_acts (Such as Modify, add some comments or codes
 ```
 
 
-### Check the reflog of the previous work and see which HEAD to move to.
+### Check the reflog of the previous work and see which 'HEAD' you want to move to.
 
 Example
 
