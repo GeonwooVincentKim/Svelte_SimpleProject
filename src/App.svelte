@@ -26,5 +26,6 @@
 
 	<!-- svelte-ignore a11y-missing-attribute -->
 	<img src={imgSrc}>
+	<!-- svelte-ignore a11y-missing-attribute -->
 	<img src={imgSrc2}>
 </main>
